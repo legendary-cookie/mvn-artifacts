@@ -1,6 +1,10 @@
 # Maven Repository
-<br>
-
+Add the repository to your build tool, for example gradle:
+```groovy
+maven {
+	url 'https://maven.tisigue.de'
+}
+```
 ## models
 Add this to your build.gradle:
 ```groovy
@@ -17,6 +21,7 @@ Add this to your pom.xml:
  </dependency>
 </dependencies>
 ```
+
 <br>
 
 ## discord-rpc
@@ -35,6 +40,7 @@ Add this to your pom.xml:
  </dependency>
 </dependencies>
 ```
+
 <br>
 
 ## socketutils
@@ -53,6 +59,7 @@ Add this to your pom.xml:
  </dependency>
 </dependencies>
 ```
+
 <br>
 
 ## openauth
@@ -71,6 +78,7 @@ Add this to your pom.xml:
  </dependency>
 </dependencies>
 ```
+
 <br>
 
 ## slick
@@ -89,5 +97,6 @@ Add this to your pom.xml:
  </dependency>
 </dependencies>
 ```
+
 <br>
 
