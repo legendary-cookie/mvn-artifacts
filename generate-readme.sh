@@ -41,3 +41,5 @@ do
 	prnt "<br>"
 	prnt ""
 done
+
+pandoc -s README.md -o index.html --metadata title="Maven Repository"
