@@ -5,8 +5,12 @@ function prnt () {
 }
 
 echo "# Maven Repository" > README.md
-prnt "<br>"
-prnt ""
+prnt "Add the repository to your build tool, for example gradle:"
+prnt '```groovy'
+prnt "maven {"
+prnt "	url 'https://maven.tisigue.de'"
+prnt "}"
+prnt '```'
 
 for f in $(find . -name maven-metadata.xml)
 do
