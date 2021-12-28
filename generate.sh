@@ -42,4 +42,6 @@ do
 	prnt ""
 done
 
-pandoc -s README.md -o index.html --metadata title="Maven Repository"
+pandoc -s README.md -o .index.html --metadata title="Maven Repository"
+cat .index.html | rg -v 'id="maven-repository"' > index.html
+rm .index.html
