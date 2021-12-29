@@ -24,7 +24,7 @@ do
 	prnt "## $artifactId"
 	prnt "Add this to your build.gradle:"
 	prnt '```groovy'
-	prnt "implementation $full"
+	prnt "implementation \"$full\""
 	prnt '```'
 	prnt ""
 	prnt "Add this to your pom.xml:"

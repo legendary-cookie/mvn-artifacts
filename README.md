@@ -8,7 +8,7 @@ maven {
 ## models
 Add this to your build.gradle:
 ```groovy
-implementation phantom:models:1.0.1
+implementation "phantom:models:1.0.1"
 ```
 
 Add this to your pom.xml:
@@ -27,7 +27,7 @@ Add this to your pom.xml:
 ## discord-rpc
 Add this to your build.gradle:
 ```groovy
-implementation net.arikia.dev:discord-rpc:1.6.2
+implementation "net.arikia.dev:discord-rpc:1.6.2"
 ```
 
 Add this to your pom.xml:
@@ -46,7 +46,7 @@ Add this to your pom.xml:
 ## socketutils
 Add this to your build.gradle:
 ```groovy
-implementation de.vincentschweiger:socketutils:1.0.0
+implementation "de.vincentschweiger:socketutils:1.0.0"
 ```
 
 Add this to your pom.xml:
@@ -65,7 +65,7 @@ Add this to your pom.xml:
 ## openauth
 Add this to your build.gradle:
 ```groovy
-implementation fr.litarvan:openauth:1.1.2
+implementation "fr.litarvan:openauth:1.1.2"
 ```
 
 Add this to your pom.xml:
@@ -84,7 +84,7 @@ Add this to your pom.xml:
 ## slick
 Add this to your build.gradle:
 ```groovy
-implementation org.newdawn:slick:1.0.0
+implementation "org.newdawn:slick:1.0.0"
 ```
 
 Add this to your pom.xml:
