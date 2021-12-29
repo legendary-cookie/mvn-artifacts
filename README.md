@@ -43,44 +43,6 @@ Add this to your pom.xml:
 
 <br>
 
-## VePoints
-Add this to your build.gradle:
-```groovy
-implementation "de.vincentschweiger:VePoints:"
-```
-
-Add this to your pom.xml:
-```xml
-<dependencies>
- <dependency>
-   <groupId>de.vincentschweiger</groupId>
-   <artifactId>VePoints</artifactId>
-   <version></version>
- </dependency>
-</dependencies>
-```
-
-<br>
-
-## 1.0-SNAPSHOT
-Add this to your build.gradle:
-```groovy
-implementation "de.vincentschweiger.VePoints:1.0-SNAPSHOT:"
-```
-
-Add this to your pom.xml:
-```xml
-<dependencies>
- <dependency>
-   <groupId>de.vincentschweiger.VePoints</groupId>
-   <artifactId>1.0-SNAPSHOT</artifactId>
-   <version></version>
- </dependency>
-</dependencies>
-```
-
-<br>
-
 ## socketutils
 Add this to your build.gradle:
 ```groovy
