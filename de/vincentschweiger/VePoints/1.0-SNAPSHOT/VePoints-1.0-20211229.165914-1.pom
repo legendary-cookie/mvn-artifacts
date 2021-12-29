@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.vincentschweiger</groupId>
+    <artifactId>VePoints</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <!--  Author and MainClass are used in plugin.yml -->
+        <author>vento</author>
+        <mainClass>de.vincentschweiger.points.SpigotPlugin</mainClass>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<maven.compiler.source>7</maven.compiler.source>
+    	<maven.compiler.target>7</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.17.1-R0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>3.0.2-rc</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>paper-repo</id>
+            <url>https://papermc.io/repo/repository/maven-public/</url>
+        </repository>
+    </repositories>
+</project>
