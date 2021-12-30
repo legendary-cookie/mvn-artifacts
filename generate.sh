@@ -15,6 +15,9 @@ prnt '```'
 for f in $(find . -name maven-metadata.xml)
 do
 	dir=`dirname $f`
+	if echo $dir | grep SNAPSHOT; then
+		continue
+	fi
 	groupId=`dirname $dir | sed 's#^./##g' | sed 's#/#.#g'`
 	artifactId=`echo $dir | sed 's#'$groupId\/'##g' | sed 's#^./##g'`
 	version=`cat $f | rg release | sed 's/[a-z<>/]//g' | tr -d " \t\n\r"`
