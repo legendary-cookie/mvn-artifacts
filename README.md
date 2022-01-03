@@ -8,7 +8,7 @@ maven {
 ## models
 Add this to your build.gradle:
 ```groovy
-implementation "phantom:models:1.0.1"
+implementation "phantom:models:1.0.2"
 ```
 
 Add this to your pom.xml:
@@ -17,7 +17,7 @@ Add this to your pom.xml:
  <dependency>
    <groupId>phantom</groupId>
    <artifactId>models</artifactId>
-   <version>1.0.1</version>
+   <version>1.0.2</version>
  </dependency>
 </dependencies>
 ```
